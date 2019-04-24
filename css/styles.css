@@ -227,7 +227,15 @@ footer {
     section .list {
       display: none; }
 
-  #footerNote {
+  footer form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    footer form input {
+      width: 240px;
+      margin: 5px; }
+  footer #footerNote {
     display: none; } }
 /* Portrait */
 
