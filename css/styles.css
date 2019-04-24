@@ -1,0 +1,211 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Futura PT Book";
+  src: url("../fonts/FuturaPT/FuturaPT.eot");
+  /* IE9*/
+  src: url("../fonts/FuturaPT/FuturaPT.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT/FuturaPT.woff2") format("woff2"), url("../fonts/FuturaPT/FuturaPT.woff") format("woff"), url("../fonts/FuturaPT/FuturaPT.ttf") format("truetype"), url("../fonts/FuturaPT/FuturaPT.svg#Futura PT Book") format("svg");
+  /* iOS 4.1- */ }
+@font-face {
+  font-family: "Futura PT Light";
+  src: url("../fonts/FuturaPTLT/FuturaLT-Light.woff") format("woff"), url("../fonts/FuturaPTLT/FuturaLT-Light.ttf") format("truetype");
+  /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ }
+@font-face {
+  font-family: "Futura PT Light Italic";
+  src: url("../fonts/FuturaPTLT/FuturaLT-Light-Italic.ttf") format("truetype");
+  /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ }
+@font-face {
+  font-family: "FuturaPTRegular";
+  src: url("../fonts/FuturaPTRegular/FuturaPTRegular.eot");
+  /* IE9*/
+  src: url("../fonts/FuturaPTRegular/FuturaPTRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPTRegular/FuturaPTRegular.woff2") format("woff2"), url("../fonts/FuturaPTRegular/FuturaPTRegular.woff") format("woff"), url("../fonts/FuturaPTRegular/FuturaPTRegular.ttf") format("truetype"), url("../fonts/FuturaPTRegular/FuturaPTRegular.svg#FuturaPTRegular") format("svg");
+  /* iOS 4.1- */ }
+@font-face {
+  font-family: "FreightDispBold";
+  src: url("../fonts/FreightDispBold/FreightDispBold.eot");
+  /* IE9*/
+  src: url("../fonts/FreightDispBold/FreightDispBold.eot?#iefix") format("embedded-opentype"), url("../fonts/FreightDispBold/FreightDispBold.woff2") format("woff2"), url("../fonts/FreightDispBold/FreightDispBold.woff") format("woff"), url("../fonts/FreightDispBold/FreightDispBold.ttf") format("truetype"), url("../fonts/FreightDispBold/FreightDispBold.svg#FreightDispBold") format("svg");
+  /* iOS 4.1- */ }
+@font-face {
+  font-family: "FreightDispBookRegular";
+  src: url("../fonts/FreightDispBookRegular/FreightDispBookRegular");
+  /* IE9*/
+  src: url("../fonts/FreightDispBookRegular/FreightDispBookRegular?#iefix") format("embedded-opentype"), url("../fonts/FreightDispBookRegular/FreightDispBookRegular.woff2") format("woff2"), url("../fonts/FreightDispBookRegular/FreightDispBookRegular.woff") format("woff"), url("../fonts/FreightDispBookRegular/FreightDispBookRegular.ttf") format("truetype"), url("../fonts/FreightDispBookRegular/FreightDispBookRegular.svg#FreightDispBookRegular") format("svg");
+  /* iOS 4.1- */ }
+@font-face {
+  font-family: "FreightDispBookIt";
+  src: url("../fonts/FreightDispBookIt/FreightDispBookIt");
+  /* IE9*/
+  src: url("../fonts/FreightDispBookIt/FreightDispBookIt?#iefix") format("embedded-opentype"), url("../fonts/FreightDispBookIt/FreightDispBookIt.woff2") format("woff2"), url("../fonts/FreightDispBookIt/FreightDispBookIt.woff") format("woff"), url("../fonts/FreightDispBookIt/FreightDispBookIt.ttf") format("truetype"), url("../fonts/FreightDispBookIt/FreightDispBookIt.svg#FreightDispBookIt") format("svg");
+  /* iOS 4.1- */ }
+html,
+body {
+  height: 100%;
+  background: #454545;
+  font-family: "FuturaPTRegular"; }
+
+p {
+  margin: 0; }
+
+input[type="text"],
+input[type="email"] {
+  height: 32px;
+  outline: none;
+  padding: 0px 10px; }
+
+input[type="submit"] {
+  height: 36px;
+  outline: none;
+  padding: 0px 10px;
+  text-align: center;
+  background-color: #000;
+  color: #FFF;
+  border: none;
+  width: 84px;
+  text-transform: uppercase;
+  font-family: "FreightDispBookRegular";
+  letter-spacing: 1px; }
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.content-wrapper {
+  border: 1px solid #FFF;
+  padding: 4px; }
+
+.content {
+  background-color: #FFF;
+  width: 800px;
+  box-shadow: 0px 0px 2px #FFF;
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+
+.content::after {
+  content: " ";
+  position: absolute;
+  height: 60px;
+  width: 80px;
+  border: 6px solid #fff;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.content::before {
+  content: " ";
+  position: absolute;
+  height: 260px;
+  width: 80px;
+  border: 6px solid #f5f5f5;
+  left: 0;
+  right: 0;
+  top: -38px;
+  margin: auto;
+  z-index: 0; }
+
+header {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 10px;
+  color: #9f173d; }
+
+section {
+  flex: 1 0 auto;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1; }
+  section .intro,
+  section .newCompanyWeb {
+    text-transform: uppercase; }
+  section .intro {
+    letter-spacing: 2px;
+    font-size: 12px;
+    position: relative; }
+    section .intro ::after {
+      content: " ";
+      background: url(../images/img-right.png);
+      position: absolute;
+      top: 20px;
+      height: 72px;
+      width: 100px;
+      background-size: 100px;
+      right: -160px; }
+  section #ofText {
+    line-height: 40px;
+    font-family: "FreightDispBookIt";
+    text-transform: lowercase;
+    letter-spacing: 1px; }
+  section .newCompanyWeb {
+    font-family: "FreightDispBookRegular";
+    font-size: 40px;
+    line-height: 36px;
+    margin-top: 0px; }
+  section #companyText {
+    color: #9f173d; }
+  section .desc {
+    width: 600px; }
+  section #hrLine {
+    border: 1px solid #9f173d;
+    width: 130px;
+    margin: 30px auto; }
+  section h4 {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px; }
+  section .list {
+    text-align: left;
+    padding-left: 165px;
+    padding-bottom: 30px;
+    list-style: none; }
+    section .list li {
+      font-size: 12px;
+      padding: 2px; }
+    section .list ::before {
+      content: "\2022";
+      color: #9f173d;
+      font-weight: bold;
+      display: inline-block;
+      width: 1.5em;
+      margin-left: -1em; }
+
+section::after {
+  content: " ";
+  background: url(../images/img-left.png);
+  position: fixed;
+  height: 335px;
+  width: 330px;
+  background-size: 340px;
+  bottom: 190px;
+  left: 0; }
+
+footer {
+  background: #9f173d;
+  text-align: center;
+  color: #FFF;
+  padding-bottom: 50px; }
+  footer h2 {
+    font-family: "FreightDispBookRegular";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0px; }
+  footer p {
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-family: "Futura PT Light"; }
+  footer #footerNote {
+    width: 300px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 10px; }
+
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+
+/*# sourceMappingURL=styles.css.map */

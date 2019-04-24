@@ -1,0 +1,55 @@
+// Fonts
+
+@font-face {font-family: "Futura PT Book";
+    src: url("../fonts/FuturaPT/FuturaPT.eot"); /* IE9*/
+    src: url("../fonts/FuturaPT/FuturaPT.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/FuturaPT/FuturaPT.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/FuturaPT/FuturaPT.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/FuturaPT/FuturaPT.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/FuturaPT/FuturaPT.svg#Futura PT Book") format("svg"); /* iOS 4.1- */
+  }
+
+@font-face {font-family: "Futura PT Light";
+    src: url("../fonts/FuturaPTLT/FuturaLT-Light.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/FuturaPTLT/FuturaLT-Light.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    }
+
+@font-face {font-family: "Futura PT Light Italic";
+    src: url("../fonts/FuturaPTLT/FuturaLT-Light-Italic.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    }
+
+@font-face {font-family: "FuturaPTRegular";
+    src: url("../fonts/FuturaPTRegular/FuturaPTRegular.eot"); /* IE9*/
+    src: url("../fonts/FuturaPTRegular/FuturaPTRegular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/FuturaPTRegular/FuturaPTRegular.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/FuturaPTRegular/FuturaPTRegular.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/FuturaPTRegular/FuturaPTRegular.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/FuturaPTRegular/FuturaPTRegular.svg#FuturaPTRegular") format("svg"); /* iOS 4.1- */
+    }
+
+  @font-face {font-family: "FreightDispBold";
+    src: url("../fonts/FreightDispBold/FreightDispBold.eot"); /* IE9*/
+    src: url("../fonts/FreightDispBold/FreightDispBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/FreightDispBold/FreightDispBold.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/FreightDispBold/FreightDispBold.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/FreightDispBold/FreightDispBold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/FreightDispBold/FreightDispBold.svg#FreightDispBold") format("svg"); /* iOS 4.1- */
+  }
+
+  @font-face {font-family: "FreightDispBookRegular";
+    src: url("../fonts/FreightDispBookRegular/FreightDispBookRegular"); /* IE9*/
+    src: url("../fonts/FreightDispBookRegular/FreightDispBookRegular?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/FreightDispBookRegular/FreightDispBookRegular.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/FreightDispBookRegular/FreightDispBookRegular.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/FreightDispBookRegular/FreightDispBookRegular.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/FreightDispBookRegular/FreightDispBookRegular.svg#FreightDispBookRegular") format("svg"); /* iOS 4.1- */
+  }
+
+  @font-face {font-family: "FreightDispBookIt";
+    src: url("../fonts/FreightDispBookIt/FreightDispBookIt"); /* IE9*/
+    src: url("../fonts/FreightDispBookIt/FreightDispBookIt?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/FreightDispBookIt/FreightDispBookIt.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/FreightDispBookIt/FreightDispBookIt.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/FreightDispBookIt/FreightDispBookIt.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/FreightDispBookIt/FreightDispBookIt.svg#FreightDispBookIt") format("svg"); /* iOS 4.1- */
+  }
