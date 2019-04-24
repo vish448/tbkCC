@@ -207,6 +207,10 @@ footer {
 /* ----------- iPhone 4 and 4S ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  input, textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0; }
+
   section .intro ::after,
   section::after {
     display: none; }
@@ -227,6 +231,10 @@ footer {
     section .list {
       display: none; }
 
+  footer p {
+    font-size: 22px; }
+  footer h2 {
+    font-size: 34px; }
   footer form {
     display: flex;
     justify-content: center;
@@ -237,7 +245,8 @@ footer {
       margin: 5px;
       height: 42px !important;
       border: none;
-      border-radius: 0px; }
+      border-radius: 0px;
+      font-size: 22px; }
     footer form input[type="submit"] {
       width: 264px !important;
       height: 42px !important;
