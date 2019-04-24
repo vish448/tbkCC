@@ -8,10 +8,10 @@
     input, textarea {
         -webkit-appearance: none;
         -webkit-border-radius: 0;
-      }
+    }
     section .intro ::after,
     section::after{
-         display: none;
+        display: none;
     }
     section .desc{
         width: auto;
@@ -47,16 +47,16 @@
             input{
                 width: 90%;
                 margin: 5px;
-                height: 52px !important;
+                height: 100px !important;
                 border: none;
                 border-radius: 0px;
-                font-size: 22px;
+                font-size: 42px;
                 
             }
             input[type="submit"] {
                 width: 93% !important;
-                height:52px !important;
-                font-size: 22px;
+                height: 100px !important;
+                font-size: 42px;
                 border: none;
                 border-radius: 0px;
             }
