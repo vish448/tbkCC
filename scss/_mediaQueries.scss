@@ -16,6 +16,9 @@
     section .desc{
         width: auto;
     }
+    .content-wrapper{
+        margin: 25px;
+    }
     .content{
         width: auto;
     }
@@ -42,17 +45,17 @@
             align-items: center;
             
             input{
-                width: 240px;
+                width: 90%;
                 margin: 5px;
-                height:42px !important;
+                height: 52px !important;
                 border: none;
                 border-radius: 0px;
                 font-size: 22px;
                 
             }
             input[type="submit"] {
-                width: 264px !important;
-                height:42px !important;
+                width: 93% !important;
+                height:52px !important;
                 font-size: 22px;
                 border: none;
                 border-radius: 0px;
