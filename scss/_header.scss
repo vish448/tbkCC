@@ -5,4 +5,7 @@ header{
     justify-content: flex-end;
     padding: 0px 10px;
     color: $base-color;
+    span:hover{
+      cursor: pointer;
+    }
   }

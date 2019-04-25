@@ -113,6 +113,8 @@ header {
   justify-content: flex-end;
   padding: 0px 10px;
   color: #9f173d; }
+  header span:hover {
+    cursor: pointer; }
 
 section {
   flex: 1 0 auto;

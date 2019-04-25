@@ -5,10 +5,10 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="container" style="visibility: hidden">
       <div class="content-wrapper">
         <div class="content">
-          <header>X</header>
+          <header><span>X</span></header>
           <section>
             <p class="intro">You are cordially invited<br/> to the launch<br/><span id="ofText">of the</span></p>
             <h1 class="newCompanyWeb">New<br/><span id="companyText">Company</span><br/><span id="webText">Website</span></h1>
@@ -37,5 +37,13 @@
         </div>
       </div>
     </div>
+ 
+      <script type="text/javascript">
+        function showIt() {
+          document.getElementById("container").style.visibility = "visible";
+        }
+        setTimeout("showIt()", 3000); // after 1 sec
+
+      </script>
   </body>
 </html>
