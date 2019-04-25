@@ -4,11 +4,12 @@
     <title>tbkCC</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body id="body">
+    <!-- <h1 style="visibility:hidden">Refresh the page to reload</h1> -->
     <div class="container" id="container" style="visibility: hidden">
       <div class="content-wrapper">
         <div class="content">
-          <header><span>X</span></header>
+          <header><span tabindex="1" id="cancel" onclick="hideIt()">X</span></header>
           <section>
             <p class="intro">You are cordially invited<br/> to the launch<br/><span id="ofText">of the</span></p>
             <h1 class="newCompanyWeb">New<br/><span id="companyText">Company</span><br/><span id="webText">Website</span></h1>
@@ -28,9 +29,9 @@
             <h2>Get your foot in the door</h2>
             <p>Know the moment our new website goes live</p>
             <form>
-              <input type="text" placeholder="Name" required />
-              <input type="email" placeholder="Email" required />
-              <input type="submit" />
+              <input type="text" placeholder="Name" required tabindex="1"/>
+              <input type="email" placeholder="Email" required tabindex="1"/>
+              <input type="submit" tabindex="1" />
             </form>
             <p id="footerNote">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
           </footer>
@@ -42,8 +43,15 @@
         function showIt() {
           document.getElementById("container").style.visibility = "visible";
         }
-        setTimeout("showIt()", 3000); // after 1 sec
+        setTimeout("showIt()", 3000);
 
+        function hideIt() {
+          document.getElementById("container").style.visibility = "hidden";
+          var newE = document.createElement('h1');
+          newE.innerHTML = 'Refresh the page to reload in 3 seconds';
+          newE.setAttribute('id','reloadH1');
+          document.getElementById("body").appendChild(newE);
+        }
       </script>
   </body>
 </html>

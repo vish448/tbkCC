@@ -1,4 +1,4 @@
-/* ----------- iPhone 4 and 4S ----------- */
+
 
 @media only screen 
   and (min-device-width: 320px) 
@@ -122,10 +122,49 @@
             display: none;
         }
     }
+}
 
+@media screen 
+    and (min-device-width: 769px) 
+    and (max-device-width: 1024px) { 
+    section::after {
+        height: 170px;
+        width: 170px;
+        background-size: 170px;
+        bottom: 350px;
+    }
 
 }
 
-@media screen and (max-width: 1028px) { 
+@media screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1140px) { 
+    section::after {
+        height: 210px;
+        width: 210px;
+        background-size: 210px;
+        bottom: 240px;
+    }
+}
 
+@media screen 
+    and (min-device-width: 1141px) 
+    and (max-device-width: 1300px) { 
+    section::after {
+        height: 290px;
+        width: 290px;
+        background-size: 290px;
+        bottom: 190px;
+    }
+}
+
+@media screen 
+    and (min-device-width: 1301px) 
+    and (max-device-width: 1440px) { 
+    section::after {
+        height: 350px;
+        width: 350px;
+        background-size: 350px;
+        bottom: 190px;
+    }
 }

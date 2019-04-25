@@ -65,6 +65,11 @@ input[type="submit"] {
   font-family: "FreightDispBookRegular";
   letter-spacing: 1px; }
 
+#reloadH1 {
+  position: absolute;
+  color: #FFF;
+  top: 0; }
+
 .container {
   height: 100%;
   display: flex;
@@ -206,7 +211,6 @@ footer {
     padding: 20px;
     font-size: 10px; }
 
-/* ----------- iPhone 4 and 4S ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
   input, textarea {
     -webkit-appearance: none;
@@ -299,5 +303,29 @@ footer {
       border-radius: 0px; }
   footer #footerNote {
     display: none; } }
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  section::after {
+    height: 170px;
+    width: 170px;
+    background-size: 170px;
+    bottom: 350px; } }
+@media screen and (min-device-width: 1024px) and (max-device-width: 1140px) {
+  section::after {
+    height: 210px;
+    width: 210px;
+    background-size: 210px;
+    bottom: 240px; } }
+@media screen and (min-device-width: 1141px) and (max-device-width: 1300px) {
+  section::after {
+    height: 290px;
+    width: 290px;
+    background-size: 290px;
+    bottom: 190px; } }
+@media screen and (min-device-width: 1301px) and (max-device-width: 1440px) {
+  section::after {
+    height: 350px;
+    width: 350px;
+    background-size: 350px;
+    bottom: 190px; } }
 
 /*# sourceMappingURL=styles.css.map */
