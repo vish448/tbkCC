@@ -207,8 +207,7 @@ footer {
     font-size: 10px; }
 
 /* ----------- iPhone 4 and 4S ----------- */
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
   input, textarea {
     -webkit-appearance: none;
     -webkit-border-radius: 0; }
@@ -260,6 +259,45 @@ footer {
       border-radius: 0px; }
   footer #footerNote {
     display: none; } }
-/* Portrait */
+@media only screen and (min-device-width: 641px) and (max-device-width: 768px) {
+  section .intro {
+    font-size: 22px; }
+  section .desc {
+    font-size: 16px; }
+  section #list-heading {
+    font-size: 18px; }
+  section .list li {
+    font-size: 16px; }
+
+  section::after {
+    height: 180px;
+    width: 180px;
+    background-size: 180px;
+    bottom: 350px; }
+
+  footer p {
+    font-size: 22px; }
+  footer h2 {
+    font-size: 34px; }
+  footer form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    footer form input {
+      width: 90%;
+      margin: 5px;
+      height: 50px !important;
+      border: none;
+      border-radius: 0px;
+      font-size: 22px; }
+    footer form input[type="submit"] {
+      width: 93% !important;
+      height: 50px !important;
+      font-size: 22px;
+      border: none;
+      border-radius: 0px; }
+  footer #footerNote {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
