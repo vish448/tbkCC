@@ -1,25 +1,25 @@
 footer{
-    background: $footer-bkg;
-    text-align: center;
-    color: $footer-content-color;
-    padding-bottom: 50px;
-    h2{
-      font-family: $FreightDispBookRegular;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      margin-bottom: 0px;
-    }
-    p{
-      margin-bottom: 10px;
-      font-size: 12px;
-      font-family: $FuturaPTLight;
-    }
-    
-    #footerNote{
-      width: 300px;
-      text-align:left;
-      margin: 0 auto;
-      padding: 20px;
-      font-size: 10px;
-    }
+  background: $footer-bkg;
+  text-align: center;
+  color: $footer-content-color;
+  padding-bottom: 50px;
+  h2{
+    font-family: $FreightDispBookRegular;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
   }
+  p{
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-family: $FuturaPTLight;
+  }
+  
+  #footerNote{
+    width: 300px;
+    text-align:left;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 10px;
+  }
+}

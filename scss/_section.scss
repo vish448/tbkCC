@@ -1,81 +1,81 @@
 section{
-    flex: 1 0 auto;
-    margin: 0 auto;
-    text-align: center;
-    z-index: 1;
-    .intro,
-    .newCompanyWeb{
-      text-transform: uppercase;
+  flex: 1 0 auto;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+  .intro,
+  .newCompanyWeb{
+    text-transform: uppercase;
+  }
+  .intro{
+    letter-spacing: 2px;
+    font-size: 12px;
+    position: relative;
+    ::after{
+      content: " ";
+      background:url(../images/img-right.png);
+      position: absolute;
+      top: 20px;
+      height: 72px;
+      width: 100px;
+      background-size: 100px;
+      right:-160px;
     }
-    .intro{
-      letter-spacing: 2px;
+  }
+  #ofText{
+    line-height: 40px;
+    font-family: $FreightDispBookIt;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+  }
+  .newCompanyWeb{
+    font-family: $FreightDispBookRegular;
+    font-size: 40px;
+    line-height: 36px;
+    margin-top: 0px;
+  }
+  #companyText{
+    color: $base-color;
+  }
+  .desc{
+    width: 600px;
+  }
+  #hrLine{
+    border: 1px solid $base-color;
+    width: 130px;
+    margin: 30px auto;
+  }
+  h4{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .list{
+    text-align: left;
+    padding-left: 165px;
+    padding-bottom: 30px;
+    list-style: none;
+    li{
       font-size: 12px;
-      position: relative;
-      ::after{
-        content: " ";
-        background:url(../images/img-right.png);
-        position: absolute;
-        top: 20px;
-        height: 72px;
-        width: 100px;
-        background-size: 100px;
-        right:-160px;
-      }
+      padding: 2px;
     }
-    #ofText{
-      line-height: 40px;
-      font-family: $FreightDispBookIt;
-      text-transform: lowercase;
-      letter-spacing: 1px;
-    }
-    .newCompanyWeb{
-      font-family: $FreightDispBookRegular;
-      font-size: 40px;
-      line-height: 36px;
-      margin-top: 0px;
-    }
-    #companyText{
+    ::before{
+      content: "\2022";
       color: $base-color;
-    }
-    .desc{
-      width: 600px;
-    }
-    #hrLine{
-      border: 1px solid $base-color;
-      width: 130px;
-      margin: 30px auto;
-    }
-    h4{
-      text-transform: uppercase;
-      font-size: 12px;
-      letter-spacing: 1px;
-    }
-    .list{
-      text-align: left;
-      padding-left: 165px;
-      padding-bottom: 30px;
-      list-style: none;
-      li{
-        font-size: 12px;
-        padding: 2px;
-      }
-      ::before{
-        content: "\2022";
-        color: $base-color;
-        font-weight: bold;
-        display: inline-block; 
-        width: 1.5em;
-        margin-left: -1em;
-      }
+      font-weight: bold;
+      display: inline-block; 
+      width: 1.5em;
+      margin-left: -1em;
     }
   }
-  section::after{
-    content: " ";
-    background: url(../images/img-left.png);
-    position: fixed;
-    height: 335px;
-    width: 330px;
-    background-size: 340px;
-    bottom: 190px;
-    left: 0;
-  }
+}
+section::after{
+  content: " ";
+  background: url(../images/img-left.png);
+  position: fixed;
+  height: 335px;
+  width: 330px;
+  background-size: 340px;
+  bottom: 190px;
+  left: 0;
+}
